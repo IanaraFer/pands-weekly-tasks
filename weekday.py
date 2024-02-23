@@ -1,4 +1,4 @@
-# weekday.py
+# weekday.py (when you run the program will ready the day of the week you are running and give you the answer, with date, time and weekday.
 # autor = Ianara Fernandes
 
 weekday = ["monday",
