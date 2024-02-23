@@ -1,4 +1,6 @@
-amount1: float('65')
-amount2: float('180')
-answer = amount1+amount2
-print ("{} + {} is {}".format(amount1, amount2, answer))
+# python bank.py the program will print "The sun of this is 2.45.
+# Autor - Ianara Fernandes
+
+amount = 0.65
+amount2 = 1.80
+print ("the sun of this is", amount+amount2) 
