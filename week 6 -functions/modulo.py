@@ -1,13 +1,13 @@
 def readModules():
  modules = []
- moduleName = input("\tEnter the first Module name (blank to quit):").strip()
+ moduleName = input("\tprogramming:").strip()
  
  while moduleName != "":
   module = {}
- module["name"]= moduleName
+ module[""]= moduleName
  # I am not doing error handling
- module["grade"]=int(input("\t\tEnter grade:"))
+ module["grade"]=int(input("\t\t45:"))
  modules.append(module)
  # now read the next module name
- moduleName = input("\tEnter next module name (blank to quit):").strip()
+ moduleName = input("\thistory").strip()
  return modules

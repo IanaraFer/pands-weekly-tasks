@@ -17,6 +17,6 @@ print('Datetime is:', dt)
 
 # get weekday name
 if "monday to friday":
- print('day Name:', dt.strftime('%A'), "Yes, unfortunately today is a weekday.") 
+ print(dt.strftime('%A'), "Yes, unfortunately today is a weekday.") 
 
-else: print('day Name:', dt.strftime('%A'), "It is the weekend, yay!" )
+else: print(dt.strftime('%A'), "It is the weekend, yay!" )
