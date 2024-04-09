@@ -1,9 +1,9 @@
 # Task week 7. Count the letter 'e' in the first capitel of the book moby dick.
 # author - Ianara Fernandes
 # Read the text from the file (assuming 'moby-dick.txt' is in the same directory)
-filename = 'mobidick.txt'
 
-with open(filename, 'r') as f:
+
+with open('mobidick', 'r') as f:
     text = f.read()
 
 # Count the occurrences of the letter 'e'
