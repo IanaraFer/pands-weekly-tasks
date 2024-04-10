@@ -1,5 +1,5 @@
-# weekday.py (when you run the program will ready the day of the week you are running and give you the answer, with date, time and weekday.
-# autor = Ianara Fernandes
+# Week task 5 (when you run the program will ready the day of the week you are running and give you the answer, with date, time and weekday.
+# Autor = Ianara Fernandes
 
 weekday = ["monday",
 "tuesday", 
@@ -19,4 +19,4 @@ print('Datetime is:', dt)
 if "monday to friday":
  print(dt.strftime('%A'), "Yes, unfortunately today is a weekday.") 
 
-else: print(dt.strftime('%A'), "It is the weekend, yay!" )
+else: print(dt.strftime('%A'), "It is the weekend, yay!")
