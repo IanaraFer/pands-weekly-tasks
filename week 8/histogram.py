@@ -1,3 +1,5 @@
+# Week task 8
+
 import numpy as np
 import matplotlib.pyplot as plt
 minSalary = 20000
