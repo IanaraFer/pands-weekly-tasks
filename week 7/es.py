@@ -22,3 +22,8 @@ letter_counts = Counter(content)
 e_count = letter_counts['e']
 
 print(f"The letter 'e' appears {e_count} times in the file.")
+
+# If the File not found
+except FileNotFoundError:
+    print(f"The file '{FILENAME}' is not found.")
+
