@@ -14,25 +14,29 @@ std_dev = 2
 sample_size = 1000
 normal_values = np.random.normal(mean, std_dev, sample_size)
 
-# Create a histogram
-plt.figure(figsize=(10, 6))
-plt.hist(normal_values, bins=30, density=True, alpha=0.6, color='blue', label='NormalDistribution')
+# Create a figure with two y-axes
+fig, ax1 = plt.subplots(figsize=(10, 6))
+ax2 = ax1.twinx()
+
+# Plot the histogram
+ax1.hist(normal_values, bins=30, density=True, alpha=0.6, color='blue', label='Normal Distribution')
 
 # Define the function h(x) = x^3
 x_values = np.linspace(0, 10, 100)
 h_values = x_values**3
 
-# Plot h(x) = x^3
-plt.plot(x_values, h_values, color='red', label='h(x) = x^3')
+# Plot h(x) = x^3 on the secondary y-axis
+ax2.plot(x_values, h_values, color='red', label='h(x) = x^3')
 
 # Add labels and title
-plt.xlabel('x')
-plt.ylabel('Density')
+ax1.set_xlabel('x')
+ax1.set_ylabel('Density (Histogram)')
+ax2.set_ylabel('h(x) = x^3', color='red')
 plt.title('Histogram of Normal Distribution and h(x) = x^3')
-plt.legend()
 
 # Show the plot
 plt.grid(True)
 plt.show()
 
-# Result of this task is a Histogram figure that show the normal distribution where have a red line 
+
+# Result of this task is a Histogram figure that show the distribution.
