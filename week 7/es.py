@@ -1,4 +1,5 @@
-# Task week 7. Count the letter 'e' in the first capitel of the book moby dick.
+# Task week 7. Count the letter 'e' in the first chapter of the book moby dick. I got the first book chapter for do this task. 
+# But there are 2 way to do it. One is if you have the file like I did you will have the number of 'e' in the first chapter of the book. But if you don't have the file book the program will tell you that the file was not fould.
 # Author - Ianara Fernandes
 
 from collections import Counter
